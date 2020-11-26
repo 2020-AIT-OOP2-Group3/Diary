@@ -4,11 +4,11 @@ from diaries.ShimuraDiaryNew import ShimuraDiaryNew
 from diaries.ShinoharaDiaryNew import ShinoharaDiaryNew
 
 diaries = [
-  DiarySample(),
-  ShinoharaDiaryNew(),
-  ShimuraDiaryNew(),
-  MatsunagaSample().
-]
+    DiarySample(),
+    ShinoharaDiaryNew(),
+    ShimuraDiaryNew(),
+    MatsunagaSample(),
+    ]
 
 for d in diaries:
     print("---------------------------------")
