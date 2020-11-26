@@ -1,9 +1,11 @@
 from diaries.DiarySample import DiarySample
 from diaries.MatsunagaDiaryNew import MatsunagaSample
+from diaries.ShinoharaDiaryNew import ShinoharaDiaryNew
 
 diaries = [
     DiarySample(),
     MatsunagaSample(),
+    ShinoharaDiaryNew(),
 ]
 
 for d in diaries:
