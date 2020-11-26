@@ -3,6 +3,7 @@ from diaries.KuwabaraDiary import DiaryKuwabara
 from diaries.MatsunagaDiaryNew import MatsunagaSample
 from diaries.ShimuraDiaryNew import ShimuraDiaryNew
 from diaries.ShinoharaDiaryNew import ShinoharaDiaryNew
+from diaries.MorinagaDiaryNew import MorinagaDiaryNew
 
 diaries = [
     DiarySample(),
@@ -10,6 +11,7 @@ diaries = [
     ShimuraDiaryNew(),
     MatsunagaSample(),
     DiaryKuwabara(),
+    MorinagaDiaryNew(),
     ]
 
 for d in diaries:
