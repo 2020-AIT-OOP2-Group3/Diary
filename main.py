@@ -3,7 +3,9 @@ from diaries.KuwabaraDiary import DiaryKuwabara
 from diaries.MatsunagaDiaryNew import MatsunagaSample
 from diaries.ShimuraDiaryNew import ShimuraDiaryNew
 from diaries.ShinoharaDiaryNew import ShinoharaDiaryNew
+from diaries.YamagutiDiaryNew import YamagutiDiaryNew
 from diaries.MorinagaDiaryNew import MorinagaDiaryNew
+
 
 diaries = [
     DiarySample(),
@@ -11,6 +13,7 @@ diaries = [
     ShimuraDiaryNew(),
     MatsunagaSample(),
     DiaryKuwabara(),
+    YamagutiDiaryNew(), 
     MorinagaDiaryNew(),
     ]
 
